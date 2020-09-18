@@ -1,6 +1,6 @@
 const express = require ('express');
 const app = express();
-
-app.listen(3000, () => {console.log("worked");});
+const port = process.env.port || 3000;
+app.listen(port, () => {console.log("worked");});
 app.use(express.static('../aws'));
 
