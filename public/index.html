@@ -99,6 +99,7 @@ fetch('http://api.open-notify.org/iss-now.json')
 
 	
 <div class="head">
+  <h1>Current ISS coordinates</h1>
 <p id = 'lat'></p>
 <p id = 'lon'></p>
 
@@ -120,7 +121,7 @@ fetch('http://api.open-notify.org/iss-now.json')
 	}).addTo(mymap);
 setInterval(() => {
 	L.marker([glat, glon]).addTo(mymap)
-		.bindPopup("I am a popup.").openPopup();
+		.bindPopup("Current ISS position").openPopup();
 		 }
 , 4000);
 
