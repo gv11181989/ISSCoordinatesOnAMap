@@ -1,3 +1,3 @@
 Current ISS coordinates displayed on a map.
 
-@ http://awstest03-env.eba-pgra73nu.eu-central-1.elasticbeanstalk.com/
+@ http://ec2-3-120-145-84.eu-central-1.compute.amazonaws.com:4000/

@@ -1,4 +1,4 @@
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 const express = require('express');
 const http = require('http');
 const app = express();
@@ -8,7 +8,7 @@ var glon = '';
 
 var server = app.listen(port, () => {
 
-    console.log("port 3000 active");
+    console.log("port 4000 active");
 
 });
 
